@@ -124,7 +124,7 @@ public class ExcelUploadHelper {
                             excelUpload.setMSISDN((long)cell.getNumericCellValue());
                             break;
                         case 2:
-                            excelUpload.setPROD_ID((long)cell.getNumericCellValue());
+                            excelUpload.setPROD_ID(cell.getStringCellValue());
                             break;
                         case 3:
                             excelUpload.setPRODUCT_NAME(cell.getStringCellValue());

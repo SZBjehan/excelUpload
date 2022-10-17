@@ -12,13 +12,13 @@ public class ExcelUpload {
 
     private long MSISDN;
 
-    private long PROD_ID;
+    private String PROD_ID;
 
     private String PRODUCT_NAME;
 
     private String STATUS;
 
-    public ExcelUpload(long ID, long MSISDN, long PROD_ID, String PRODUCT_NAME, String STATUS) {
+    public ExcelUpload(long ID, long MSISDN, String PROD_ID, String PRODUCT_NAME, String STATUS) {
         this.ID = ID;
         this.MSISDN = MSISDN;
         this.PROD_ID = PROD_ID;
@@ -45,11 +45,11 @@ public class ExcelUpload {
         this.MSISDN = MSISDN;
     }
 
-    public long getPROD_ID() {
+    public String getPROD_ID() {
         return PROD_ID;
     }
 
-    public void setPROD_ID(long PROD_ID) {
+    public void setPROD_ID(String PROD_ID) {
         this.PROD_ID = PROD_ID;
     }
 
